@@ -34,6 +34,7 @@ public class FuncionarioService {
         }
     }
 
+    //Vai atribuir 10% em cima do salario dos funcionarios
     public void atribuirSalario(List<Funcionario> funcionarios, BigDecimal salario) {
         if (funcionarios != null && !funcionarios.isEmpty()) {
             for (Funcionario f : funcionarios) {
